@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("Info","Button Pressed");
 
-        EditText Amount_editText = (EditText)findViewById(R.id.Amount_editText);
-        TextView InRupees_editText = (TextView) findViewById(R.id.InRupees_editText);
+        this.Amount_editText = findViewById(R.id.Amount_editText);
+        this.InRupees_editText = findViewById(R.id.InRupees_editText);
 
         String amountInYen = Amount_editText.getText().toString();
 
